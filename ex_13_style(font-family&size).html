@@ -1,0 +1,76 @@
+<!-- 
+css 수업을 위한 기본 문서
+인터넷개론 과제했던것을 한페이지로 표시
+-->
+
+<!-- font도 다운로드의 대상 -->
+<!-- font에 대한 설정은 body에 쓰면 자동상속되어 모든 내용에 적용되고, 폰드에 대한 별도 설정은
+		id나 class와 같이 별도 지정하여 변경 가능  -->
+
+<!-- OS에 해당 글꼴이 지원되지 않으면 default font로 표현함 -->
+<!-- font를 설정할 때 그냥 굴림; 이런식으로 쓰이거나 "맑은 고딕"; 이런식으로 차이나게 표현될 때가 있는데,
+		이것은 띄어쓰기 때문 / (맑은 고딕)에서 띄어쓰기 공백으로 에러가 남  -->
+
+<!DOCTYPE html>
+
+<html lang="ko"> <!-- 한국어문서만 검색할때, 음성으로 할때 한국어 음성지원 -->
+    <head>
+        <meta charset="UTF-8"> <!-- 브라우저가 문서를 해석할때 필요한 정보 -->
+        <title>스타일시트</title>
+        <!-- 스타일시트자리 -->
+        <style>
+            body {font-size: 12px;}
+            #ht01 {
+            			font-family: 굴림체;
+            			font-size : 30px;
+            			}		
+            /* reminder : #은 id표시 */
+            #ht02 {font-family: 돋움체;}
+            #ht03 {font-family: 바탕체;}
+            #ht04 {font-family: 궁서체;}
+            #ht05 {font-family: 맑은고딕;}
+
+            #et01 {font-family: Verdana;}
+            #et02 {font-family: Geneva;}
+            #et03 {font-family: sans-serif;}
+            #et04 {font-family: Georgia;}
+            #et05 {font-family: "Times New Roman";}
+            #et06 {font-family: Times;}
+            #et07 {font-family: serif;}
+            #et08 {font-family: "Courier New";}
+            #et09 {font-family: Courier;}
+            #et10 {font-family: monospace;}
+            #et11 {font-family: Arial;}
+            #et12 {font-family: Helvetica;}
+        </style>
+    </head>
+
+    <body>
+      
+        <h1>폰트</h1>
+        
+        <h2>한글</h2>
+        <p id="ht01">한글 굴림체 입니다.</p>
+        <p id="ht02">한글 돋움체 입니다.</p>
+        <p id="ht03">한글 바탕체 입니다.</p>
+        <p id="ht04">한글 궁서체 입니다.</p>
+        <p id="ht05">한글 "맑은 고딕" 입니다.</p>
+        
+        <h2>영문</h2>
+        <p id="et01">영문 Verdana 입니다.</p>
+        <p id="et02">영문 Geneva 입니다.</p>
+        <p id="et03">영문 sans-serif 입니다.</p>
+        <p id="et04">영문 Georgia 입니다.</p>
+        <p id="et05">영문 "Times New Roman" 입니다.</p>
+        <p id="et06">영문 Times 입니다.</p>
+        <p id="et07">영문 serif 입니다.</p>
+        <p id="et08">영문 "Courier New" 입니다.</p>
+        <p id="et09">영문 Courier 입니다.</p>
+        <p id="et10">영문 monospace 입니다.</p>
+        <p id="et11">영문 Arial 입니다.</p>
+        <p id="et12">영문 Helvetica 입니다.</p>
+     
+
+    </body>
+
+</html>

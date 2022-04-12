@@ -1,0 +1,7 @@
+@charset "UTF-8";
+
+/* css 주석은 이렇게 작성합시다 */
+/* 문서 자체가 css이기 때문에 <style>을 작성할 필요 없음 */
+
+h2 {color: #0000FF;}
+li {color: #FF00FF;}
